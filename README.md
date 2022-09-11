@@ -75,10 +75,14 @@ Without pageframes, Bildertisch will just serialize images by position (topleft 
 With pageframes, you can manually select images for each page. You will see a pageframe grid, place images in the middle of each page frame to render it on the accoridng page.
 Careful, this is limited to 32 pages, as the page frame grid indicates.
 
+
 Pageframes
+
 ![image info](./doc/Bildertisch_pageframes.png)
 
+
 The PDF Dialog looks like this
+
 ![image info](./doc/Bildertisch_pdfdialog.png)
 
 ### Key Shortcuts
