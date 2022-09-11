@@ -69,5 +69,4 @@ The working area can be zoomed from 0.5 to 2.0 (Ctrl-Mousewheel or the buttons z
 
 ```
 
-
 I'll maybe writeup some more dok in the future if and when I find the time...
