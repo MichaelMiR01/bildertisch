@@ -2,7 +2,7 @@
 
 Bildertisch (drawCanvas.exe) is a tool written out of the need for a simple tool, that yet did not exist on the net.
 
-When working with photo images I often work with combinations of 3,4 or many pictures. Look up the gallery hangings of Wolfgang Tillmanns, Anders Petersen or Michael Schmid to get an impression, how the combination of image can be used in an artistic way.
+When working with photo images I often work with combinations of 3,4 or many pictures. Look up the gallery hangings of Wolfgang Tillmanns, Anders Petersen or Michael Schmid to get an impression, how the combination of images can be used in an artistic way.
 
 Example:
 ![image info](./doc/tableau_2022-01-23_002.jpg)
@@ -35,6 +35,17 @@ To my experience, I work with lots of images (1000-3000) as source to combine an
 Keeping them all in one directory quickly turned out as a mess, so I split directories. 
 I personally have one subdir called ProjectDesktop, there go all my active image projects I'm working at. There I open up a subdir with my source images for a project (lets call this 2022_Samples), there I put reduced size copies of my images (2000px long side). why? Well, it speeds up image handling and intuition is all about speed.
 In this project dir I will makedir a subdir called tableaus. Bildertisch will automatically recognize the name and use it for saving/loading tableaus from.
+Typical directory structure looks like this
+```
+(...)
+	ProjectDesktop
+		(...)
+		220910_Projectname
+			tableaus
+		(...)
+	(...)
+(...)
+```
 
 Bildertisch has an extremly simplified interface, but some keyboard shortcuts to help out. Therefor, it is actually not useful to use it on a tablet... sigh!
 When you first start you have to set the image directory. This can be done via Menu (Configure - Set Image Directory) or with the Dir symbol top left.
@@ -48,9 +59,27 @@ Images can be rotated (Ctrl-r), Resized (click near the border), Moved, Snapped 
 Save (Ctrl-S) will save two files into the tableau directory: A text file, default name will be tableau_YYYY-MM-DD_HH-MM-SS.tbl, that holds the abstracted data of your combination (layout, position, size, imagenames etc.)
 The second file is a plain Jpeg and will be used as thumbnail, so it size is relatively small. 
 
+The working area can be zoomed from 0.5 to 2.0 (Ctrl-Mousewheel or the buttons zoom+/- at the bottom). It's initial size is 3000x5000px, but it will automatically extend, when you place images beyond.
+
+### Rendering
+Since the thumbnails previews are a bit small, they are not usable for most serious uses. Bildertisch is able to render higher resolved versions of your tableau.
 To get large sized rendering of your combination use the RenderImage button at the bottom. Warning, final size is limited to win32-memory , so somewhere above 10000px this will yield an error.
 
-The working area can be zoomed from 0.5 to 2.0 (Ctrl-Mousewheel or the buttons zoom+/- at the bottom). It's initial size is 3000x5000px, but it will automatically extend, when you place images beyond.
+
+### PDF (preliminary)
+Bildertisch has some preliminary support for rendering tableaus into different kinds of PDF. 
+
+The main options are with and without pageframes, this can be selectede form the File menu.
+
+Without pageframes, Bildertisch will just serialize images by position (topleft to bottomright) and put one image on every page of your pdf. 
+With pageframes, you can manually select images for each page. You will see a pageframe grid, place images in the middle of each page frame to render it on the accoridng page.
+Careful, this is limited to 32 pages, as the page frame grid indicates.
+
+Pageframes
+![image info](./doc/Bildertisch_pageframes.png)
+
+The PDF Dialog looks like this
+![image info](./doc/Bildertisch_pdfdialog.png)
 
 ### Key Shortcuts
 ```
