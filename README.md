@@ -69,7 +69,7 @@ To get large sized rendering of your combination use the RenderImage button at t
 ### PDF (preliminary)
 Bildertisch has some preliminary support for rendering tableaus into different kinds of PDF. 
 
-The main options are with and without pageframes, this can be selectede form the File menu.
+The main options are with and without pageframes, this can be selected from the -File menu-.
 
 Without pageframes, Bildertisch will just serialize images by position (topleft to bottomright) and put one image on every page of your pdf. 
 With pageframes, you can manually select images for each page. You will see a pageframe grid, place images in the middle of each page frame to render it on the accoridng page.
