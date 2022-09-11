@@ -21,7 +21,9 @@ Source code, kit-file and precompiled exe are all downloadable from https://gith
 ###  Introduction
 
 ![image info](./doc/Screenshot_01.png)
+
 Introduction: what Bildertisch (Image-table) is (and what it is not)
+
 Bildertisch was written solely to build image combinations (tableau). Therefore it has no fancy image editing whatsoever. No brightness, contrast, anything! You have to finalize your images beforehand, select them down and reexport from your favorite image editing/image organisation app. Btw, I myself use good old Picasa for that...
 It's analog origin is a real table (every house should have one), where we are moving images to form combinations.
 
