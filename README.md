@@ -1,6 +1,6 @@
 # Bildertisch
 
-Bildertisch (drawCanvas.exe) is a tool written out of the need for a simple tool, that yet did not exist on the net
+Bildertisch (drawCanvas.exe) is a tool written out of the need for a simple tool, that yet did not exist on the net.
 
 When working with photo images I often work with combinations of 3,4 or many pictures. Look up the gallery hangings of Wolfgang Tillmanns, Anders Petersen or Michael Schmid to get an impression, how the combination of image can be used in an artistic way.
 
@@ -19,6 +19,8 @@ I added some compiled c-code to leverage jpegs ability to partly decode images, 
 Source code, kit-file and precompiled exe are all downloadable from https://github.com/MichaelMiR01/bildertisch
 
 ###  Introduction
+
+![image info](./doc/Screenshot_01.png)
 Introduction: what Bildertisch (Image-table) is (and what it is not)
 Bildertisch was written solely to build image combinations (tableau). Therefore it has no fancy image editing whatsoever. No brightness, contrast, anything! You have to finalize your images beforehand, select them down and reexport from your favorite image editing/image organisation app. Btw, I myself use good old Picasa for that...
 It's analog origin is a real table (every house should have one), where we are moving images to form combinations.
