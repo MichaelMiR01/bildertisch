@@ -4,7 +4,7 @@ Bildertisch (drawCanvas.exe) is a tool written out of the need for a simple tool
 
 When working with photo images I often work with combinations of 3,4 or many pictures. Look up the gallery hangings of Wolfgang Tillmanns, Anders Petersen or Michael Schmid to get an impression, how the combination of images can be used in an artistic way.
 
-Example:
+Example (this was part of my last exhibition (hanging plan), the images where printed 20x30 cm, so the whole thing is 250cm x 120cm):
 ![image info](./doc/tableau_2022-01-23_002.jpg)
 
 Instead of using GIMP or any image manipulation programm I wrote my own app... since I did not find any app on the net that was able to fullfil my needs for a simple, intuitive tool.
